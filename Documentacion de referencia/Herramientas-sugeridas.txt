@@ -1,0 +1,3 @@
+Para trabajar en git o en otro proyectos puedes tener en cuenta el siguiente software:
+
+Editor de codigo ATOM: https://atom.io
