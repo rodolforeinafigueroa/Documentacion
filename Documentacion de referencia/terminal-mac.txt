@@ -1,0 +1,30 @@
+Comandos generales:
+cd + nombre de la carpeta: Para ingresar a la carpeta.
+cd + .. devolverse al directorio superior.
+mkdir: crear una nueva carpeta.
+touch: crear un nuevo archivo.
+rm + nombre del archivo: Eliminar un archivo.
+rm -rf + nombre de la carpeta: Eliminar una carpeta.
+ls: ver los archivos y carpetas que se encuentran dentro del directorio que estamos trabajando.
+ls -a: incluye los archivos ocultos.
+vim + nombre del archivo: permite editar el archivo
+mv nombreviejo nombre nuevo: cambiar el nombre de una archivo
+
+## Consideraciones vim
+para salir de vim hay que pulsar la tecla escape, despues escribir dos puntos ":", seguido de la letra q si queremos salir o w si queremos guardar los cambios.
+
+Ejemplo para salir y guardar los cambios:
+Tecla escape seguido de :wq
+## fin consideraciones vim
+
+####Terminal zsh
+
+Esta es una terminal que nos brinda mas funciones, para saber si esta instalada se ejecuta el comando "zsh --version"
+
+Si se esta utilizando git, se recomienda instalar el codigo de Oh my Zsh para poder ver mas información, por ejemplo ver en que rama se encuentra y si existen archivos sin preparar.
+
+El comando es el siguiente:
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+Para ingresar a esta consola desde terminal se digita "zsh". 

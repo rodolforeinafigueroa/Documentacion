@@ -1,0 +1,25 @@
+En los mac ya viene instalada una versión, para comprobar si es asi en terminal ejecute el siguiente comando:
+
+git --version
+
+Si aparece la version es que esta instalado.
+
+Si no lo tiene o desea actualizarlo, puede descargarlo de la siguiente pagina:
+
+https://git-scm.com
+
+### Configuración inicial
+
+Como configuracion general, lo que hacemos es configurar nuestro correo, nombre y la presentacion de las ramas, para esto usamos los siguientes comandos:
+
+git config --global user.mail "email@email.com"
+git config --global user.name "nombre completo"
+git config --global color.ui true
+
+## Creacion de un repositorio
+
+1. Podemos crear la carpeta, ubicarnos dentro y ejecutar el comando git init
+2. En un directorio padre damos git init + nombre del nuevo directorio, nos creara un directorio ya con control de cambios
+3. git clone + url: para clonar un repositorio remoto en nuestra maquina.
+
+
