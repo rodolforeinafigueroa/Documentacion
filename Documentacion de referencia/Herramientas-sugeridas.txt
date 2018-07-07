@@ -7,5 +7,3 @@ Despues de instalar en el medu de atom se da clic sobre "Intall shell comands"
 Esto nos permitira cambiar el editor que se usa en git con la siguiente sentencia
 
 git config global core.editor "atom --wait"
-
-
